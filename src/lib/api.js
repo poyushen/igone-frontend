@@ -1,5 +1,5 @@
 /** @type {string} */
-const API_BASE = '/api';
+const API_BASE = ${PUBLIC_API_BASE_URL};
 
 /**
  * @param {string} situation
