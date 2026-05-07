@@ -1,5 +1,8 @@
+import { PUBLIC_API_BASE_URL } from '$env/static/public';
+
 /** @type {string} */
-const API_BASE = ${PUBLIC_API_BASE_URL};
+//const API_BASE = ${PUBLIC_API_BASE_URL};
+const API_BASE = PUBLIC_API_BASE_URL;
 
 /**
  * @param {string} situation
