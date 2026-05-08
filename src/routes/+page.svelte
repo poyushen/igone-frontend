@@ -249,7 +249,7 @@
     <!-- Header -->
     <header>
       <div class="header-logo-side">
-        <img src="/igone_logo.png" alt="I-GONE Logo" class="site-logo" />
+        <img src="/igone_logo.png" alt="I-GONE Logo" class="site-logo" onclick={() => location.reload()} style="cursor:pointer;" />
       </div>
       <div class="header-copy-side">
         <p class="tagline">I 人社交地獄逃生系統</p>
